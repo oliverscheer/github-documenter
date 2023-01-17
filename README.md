@@ -13,5 +13,8 @@ It is required to have GitHub CLI installed.
 gh auth login
 
 # Set your default repository for GitHub export
-gh
+gh repo set-default <owner>/<repo>
+
+# include path where you downloaded this repos
+<path-to-ghx>/ghx.sh
 ```
